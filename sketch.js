@@ -22,13 +22,13 @@ function setup() {
 
   
  player= new Player(750,500,200,200)
- left_button= createImg ("left.png")
+ left_button= createImg ("letf.png")
  left_button.position(50,50)
    left_button.size(50,50)
    left_button.mouseClicked(move)
 
    right_button= createImg ("right.png")
- right_button.position(900,900)
+ right_button.position(300,300)
    right_button.size(50,50)
    right_button.mouseClicked(moveLeft)
 }
